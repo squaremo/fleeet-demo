@@ -1,0 +1,16 @@
+apiVersion: fleet.squaremo.dev/v1alpha1
+kind: Module
+metadata:
+  name: podinfo
+  namespace: default
+spec:
+  selector: {}
+  sync:
+    source:
+      git:
+        url: https://github.com/stefanprodan/podinfo
+        version:
+          tag: 5.2.0
+    package:
+      kustomize:
+        path: ./kustomize
