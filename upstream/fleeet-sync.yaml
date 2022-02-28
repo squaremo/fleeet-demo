@@ -5,8 +5,6 @@ metadata:
   name: fleeet-control
   namespace: flux-system
 spec:
-  dependsOn:
-  - name: cluster-api
   interval: 1m0s
   path: ./configs/fleeet-control/default
   prune: true
