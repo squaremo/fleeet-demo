@@ -7,6 +7,5 @@ metadata:
 spec:
   interval: 1m0s
   ref:
-    branch: rollouts
-  url: https://github.com/squaremo/fleeet-config
-
+    branch: design-rollouts
+  url: https://github.com/squaremo/fleeet

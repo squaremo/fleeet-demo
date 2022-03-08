@@ -6,9 +6,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./configs/fleeet-control/default
+  path: ./module/config/default
   prune: true
   sourceRef:
     kind: GitRepository
     name: fleeet-config
-
