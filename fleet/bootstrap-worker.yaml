@@ -3,6 +3,7 @@ apiVersion: fleet.squaremo.dev/v1alpha1
 kind: BootstrapModule
 metadata:
   name: flux-components
+  namespace: default
 spec:
     selector:
       matchLabels: {}
@@ -20,6 +21,7 @@ apiVersion: fleet.squaremo.dev/v1alpha1
 kind: BootstrapModule
 metadata:
   name: assemblage-controller
+  namespace: default
 spec:
     selector:
       matchLabels: {}
